@@ -1,0 +1,866 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ObjectStore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:SageObjectStore">
+  <ApplicationNamespace>Eureka.Common.Addons</ApplicationNamespace>
+  <MemberVariablePrefix>_</MemberVariablePrefix>
+  <ClassPrefix>Persistent</ClassPrefix>
+  <ClassSuffix />
+  <Language>VB</Language>
+  <Path>C:\Sage200SchemaExtensions</Path>
+  <GenerateBusinessObjects>true</GenerateBusinessObjects>
+  <GenerateSeparateFiles>true</GenerateSeparateFiles>
+  <PersistentObjects>
+    <PersistentObject Name="Customer">
+      <TableName />
+      <Description />
+      <Fields>
+        <Field Name="SLCustomerAccountID">
+          <DbType>Int64</DbType>
+          <Precision>11</Precision>
+          <Scale>2</Scale>
+          <FillType>None</FillType>
+          <IsNullable>false</IsNullable>
+          <IsReadOnly>true</IsReadOnly>
+          <AllowOverwrite>Equal</AllowOverwrite>
+          <IsPrimaryKey>true</IsPrimaryKey>
+          <IsDeltaField>false</IsDeltaField>
+          <IsIndexed>true</IsIndexed>
+          <IsTransient>false</IsTransient>
+          <IsUnique>true</IsUnique>
+          <OverrideFormatting>false</OverrideFormatting>
+          <IsLockable>false</IsLockable>
+          <Direction>Input</Direction>
+          <ValueSetByDatabase>false</ValueSetByDatabase>
+          <FormatScale>2</FormatScale>
+          <FormatMask>99999999999</FormatMask>
+          <NegativeFormatting>Standard</NegativeFormatting>
+          <Group>false</Group>
+          <AggregateFunction>None</AggregateFunction>
+          <IsExcludedFromCopy>false</IsExcludedFromCopy>
+          <IsExpression>false</IsExpression>
+          <FriendlyName>Customer ID</FriendlyName>
+          <IsBrowsable>true</IsBrowsable>
+          <IsQueryable>true</IsQueryable>
+          <IsEnumeration>false</IsEnumeration>
+          <IsAddInPrimaryKey>false</IsAddInPrimaryKey>
+          <AddInTableName />
+          <AddInRelationField />
+          <IsMember>false</IsMember>
+          <IsExcludedFromReset>false</IsExcludedFromReset>
+        </Field>
+      </Fields>
+      <IsCacheable>false</IsCacheable>
+      <AllowZeroKeys>false</AllowZeroKeys>
+      <AlwaysAllowPaging>false</AlwaysAllowPaging>
+      <Namespace />
+      <PagingFields />
+      <TransactionMode>Default</TransactionMode>
+      <IsStoredProcedure>false</IsStoredProcedure>
+      <ProcedureReturnType />
+    </PersistentObject>
+    <PersistentObject Name="EurekaBillingFrequency">
+      <TableName />
+      <Description />
+      <Fields>
+        <Field Name="EurekaBillingFrequencyID">
+          <DbType>Int64</DbType>
+          <Precision>11</Precision>
+          <Scale>2</Scale>
+          <FillType>None</FillType>
+          <IsNullable>false</IsNullable>
+          <IsReadOnly>true</IsReadOnly>
+          <AllowOverwrite>Equal</AllowOverwrite>
+          <IsPrimaryKey>true</IsPrimaryKey>
+          <IsDeltaField>false</IsDeltaField>
+          <IsIndexed>true</IsIndexed>
+          <IsTransient>false</IsTransient>
+          <IsUnique>true</IsUnique>
+          <OverrideFormatting>false</OverrideFormatting>
+          <IsLockable>false</IsLockable>
+          <Direction>Input</Direction>
+          <ValueSetByDatabase>false</ValueSetByDatabase>
+          <FormatScale>2</FormatScale>
+          <FormatMask>99999999999</FormatMask>
+          <NegativeFormatting>Standard</NegativeFormatting>
+          <Group>false</Group>
+          <AggregateFunction>None</AggregateFunction>
+          <IsExcludedFromCopy>false</IsExcludedFromCopy>
+          <IsExpression>false</IsExpression>
+          <FriendlyName>Eureka Billing Frequency ID</FriendlyName>
+          <IsBrowsable>true</IsBrowsable>
+          <IsQueryable>true</IsQueryable>
+          <IsEnumeration>false</IsEnumeration>
+          <IsAddInPrimaryKey>false</IsAddInPrimaryKey>
+          <AddInTableName />
+          <AddInRelationField />
+          <IsMember>false</IsMember>
+          <IsExcludedFromReset>false</IsExcludedFromReset>
+        </Field>
+        <Field Name="Name">
+          <DbType>String</DbType>
+          <Precision>60</Precision>
+          <Scale>0</Scale>
+          <FillType>None</FillType>
+          <IsNullable>false</IsNullable>
+          <IsReadOnly>false</IsReadOnly>
+          <AllowOverwrite>True</AllowOverwrite>
+          <IsPrimaryKey>false</IsPrimaryKey>
+          <IsDeltaField>false</IsDeltaField>
+          <IsIndexed>false</IsIndexed>
+          <IsTransient>false</IsTransient>
+          <IsUnique>false</IsUnique>
+          <OverrideFormatting>false</OverrideFormatting>
+          <IsLockable>false</IsLockable>
+          <Direction>Input</Direction>
+          <ValueSetByDatabase>false</ValueSetByDatabase>
+          <FormatScale>0</FormatScale>
+          <NegativeFormatting>Standard</NegativeFormatting>
+          <Group>false</Group>
+          <AggregateFunction>None</AggregateFunction>
+          <IsExcludedFromCopy>false</IsExcludedFromCopy>
+          <IsExpression>false</IsExpression>
+          <FriendlyName>Billing Frequency Name</FriendlyName>
+          <IsBrowsable>true</IsBrowsable>
+          <IsQueryable>true</IsQueryable>
+          <IsEnumeration>false</IsEnumeration>
+          <IsAddInPrimaryKey>false</IsAddInPrimaryKey>
+          <AddInTableName />
+          <AddInRelationField />
+          <IsMember>false</IsMember>
+          <IsExcludedFromReset>false</IsExcludedFromReset>
+        </Field>
+      </Fields>
+      <IsCacheable>false</IsCacheable>
+      <AllowZeroKeys>false</AllowZeroKeys>
+      <AlwaysAllowPaging>false</AlwaysAllowPaging>
+      <Namespace />
+      <PagingFields />
+      <TransactionMode>Default</TransactionMode>
+      <IsStoredProcedure>false</IsStoredProcedure>
+      <ProcedureReturnType />
+    </PersistentObject>
+    <PersistentObject Name="EurekaCommonAddon">
+      <TableName />
+      <Description />
+      <Fields>
+        <Field Name="EurekaCommonAddonID">
+          <DbType>Int64</DbType>
+          <Precision>11</Precision>
+          <Scale>2</Scale>
+          <FillType>None</FillType>
+          <IsNullable>false</IsNullable>
+          <IsReadOnly>true</IsReadOnly>
+          <AllowOverwrite>Equal</AllowOverwrite>
+          <IsPrimaryKey>true</IsPrimaryKey>
+          <IsDeltaField>false</IsDeltaField>
+          <IsIndexed>true</IsIndexed>
+          <IsTransient>false</IsTransient>
+          <IsUnique>true</IsUnique>
+          <OverrideFormatting>false</OverrideFormatting>
+          <IsLockable>false</IsLockable>
+          <Direction>Input</Direction>
+          <ValueSetByDatabase>false</ValueSetByDatabase>
+          <FormatScale>2</FormatScale>
+          <FormatMask>99999999999</FormatMask>
+          <NegativeFormatting>Standard</NegativeFormatting>
+          <Group>false</Group>
+          <AggregateFunction>None</AggregateFunction>
+          <IsExcludedFromCopy>false</IsExcludedFromCopy>
+          <IsExpression>false</IsExpression>
+          <FriendlyName>Eureka Common Addon ID</FriendlyName>
+          <IsBrowsable>true</IsBrowsable>
+          <IsQueryable>true</IsQueryable>
+          <IsEnumeration>false</IsEnumeration>
+          <IsAddInPrimaryKey>false</IsAddInPrimaryKey>
+          <AddInTableName />
+          <AddInRelationField />
+          <IsMember>false</IsMember>
+          <IsExcludedFromReset>false</IsExcludedFromReset>
+        </Field>
+        <Field Name="Name">
+          <Description>The name of the common add-on</Description>
+          <DbType>String</DbType>
+          <Precision>60</Precision>
+          <Scale>0</Scale>
+          <FillType>None</FillType>
+          <IsNullable>false</IsNullable>
+          <IsReadOnly>false</IsReadOnly>
+          <AllowOverwrite>True</AllowOverwrite>
+          <IsPrimaryKey>false</IsPrimaryKey>
+          <IsDeltaField>false</IsDeltaField>
+          <IsIndexed>false</IsIndexed>
+          <IsTransient>false</IsTransient>
+          <IsUnique>false</IsUnique>
+          <OverrideFormatting>false</OverrideFormatting>
+          <IsLockable>false</IsLockable>
+          <Direction>Input</Direction>
+          <ValueSetByDatabase>false</ValueSetByDatabase>
+          <FormatScale>0</FormatScale>
+          <NegativeFormatting>Standard</NegativeFormatting>
+          <Group>false</Group>
+          <AggregateFunction>None</AggregateFunction>
+          <IsExcludedFromCopy>false</IsExcludedFromCopy>
+          <IsExpression>false</IsExpression>
+          <FriendlyName>Name</FriendlyName>
+          <IsBrowsable>true</IsBrowsable>
+          <IsQueryable>true</IsQueryable>
+          <IsEnumeration>false</IsEnumeration>
+          <IsAddInPrimaryKey>false</IsAddInPrimaryKey>
+          <AddInTableName />
+          <AddInRelationField />
+          <IsMember>false</IsMember>
+          <IsExcludedFromReset>false</IsExcludedFromReset>
+        </Field>
+        <Field Name="Description">
+          <Description>A description of the common add-on's functionality</Description>
+          <DbType>String</DbType>
+          <Precision>2147483647</Precision>
+          <Scale>0</Scale>
+          <FillType>None</FillType>
+          <IsNullable>false</IsNullable>
+          <IsReadOnly>false</IsReadOnly>
+          <AllowOverwrite>True</AllowOverwrite>
+          <IsPrimaryKey>false</IsPrimaryKey>
+          <IsDeltaField>false</IsDeltaField>
+          <IsIndexed>false</IsIndexed>
+          <IsTransient>false</IsTransient>
+          <IsUnique>false</IsUnique>
+          <OverrideFormatting>false</OverrideFormatting>
+          <IsLockable>false</IsLockable>
+          <Direction>Input</Direction>
+          <ValueSetByDatabase>false</ValueSetByDatabase>
+          <FormatScale>0</FormatScale>
+          <NegativeFormatting>Standard</NegativeFormatting>
+          <Group>false</Group>
+          <AggregateFunction>None</AggregateFunction>
+          <IsExcludedFromCopy>false</IsExcludedFromCopy>
+          <IsExpression>false</IsExpression>
+          <FriendlyName>Description</FriendlyName>
+          <IsBrowsable>true</IsBrowsable>
+          <IsQueryable>true</IsQueryable>
+          <IsEnumeration>false</IsEnumeration>
+          <IsAddInPrimaryKey>false</IsAddInPrimaryKey>
+          <AddInTableName />
+          <AddInRelationField />
+          <IsMember>false</IsMember>
+          <IsExcludedFromReset>false</IsExcludedFromReset>
+        </Field>
+        <Field Name="OneOffCost">
+          <Description>The price of purchasing the add-on outright</Description>
+          <DbType>Decimal</DbType>
+          <Precision>18</Precision>
+          <Scale>2</Scale>
+          <FillType>None</FillType>
+          <IsNullable>false</IsNullable>
+          <IsReadOnly>false</IsReadOnly>
+          <AllowOverwrite>True</AllowOverwrite>
+          <IsPrimaryKey>false</IsPrimaryKey>
+          <IsDeltaField>false</IsDeltaField>
+          <IsIndexed>false</IsIndexed>
+          <IsTransient>false</IsTransient>
+          <IsUnique>false</IsUnique>
+          <OverrideFormatting>false</OverrideFormatting>
+          <IsLockable>false</IsLockable>
+          <Direction>Input</Direction>
+          <ValueSetByDatabase>false</ValueSetByDatabase>
+          <FormatScale>2</FormatScale>
+          <FormatMask>999999999999999999.99</FormatMask>
+          <NegativeFormatting>Standard</NegativeFormatting>
+          <Group>false</Group>
+          <AggregateFunction>None</AggregateFunction>
+          <IsExcludedFromCopy>false</IsExcludedFromCopy>
+          <IsExpression>false</IsExpression>
+          <FriendlyName>One Off Cost</FriendlyName>
+          <IsBrowsable>true</IsBrowsable>
+          <IsQueryable>true</IsQueryable>
+          <IsEnumeration>false</IsEnumeration>
+          <IsAddInPrimaryKey>false</IsAddInPrimaryKey>
+          <AddInTableName />
+          <AddInRelationField />
+          <IsMember>false</IsMember>
+          <IsExcludedFromReset>false</IsExcludedFromReset>
+        </Field>
+        <Field Name="MonthlyCost">
+          <Description>The price paid monthly for use of the add-on</Description>
+          <DbType>Decimal</DbType>
+          <Precision>18</Precision>
+          <Scale>2</Scale>
+          <FillType>None</FillType>
+          <IsNullable>false</IsNullable>
+          <IsReadOnly>false</IsReadOnly>
+          <AllowOverwrite>True</AllowOverwrite>
+          <IsPrimaryKey>false</IsPrimaryKey>
+          <IsDeltaField>false</IsDeltaField>
+          <IsIndexed>false</IsIndexed>
+          <IsTransient>false</IsTransient>
+          <IsUnique>false</IsUnique>
+          <OverrideFormatting>false</OverrideFormatting>
+          <IsLockable>false</IsLockable>
+          <Direction>Input</Direction>
+          <ValueSetByDatabase>false</ValueSetByDatabase>
+          <FormatScale>2</FormatScale>
+          <FormatMask>999999999999999999.99</FormatMask>
+          <NegativeFormatting>Standard</NegativeFormatting>
+          <Group>false</Group>
+          <AggregateFunction>None</AggregateFunction>
+          <IsExcludedFromCopy>false</IsExcludedFromCopy>
+          <IsExpression>false</IsExpression>
+          <FriendlyName>Monthly Cost</FriendlyName>
+          <IsBrowsable>true</IsBrowsable>
+          <IsQueryable>true</IsQueryable>
+          <IsEnumeration>false</IsEnumeration>
+          <IsAddInPrimaryKey>false</IsAddInPrimaryKey>
+          <AddInTableName />
+          <AddInRelationField />
+          <IsMember>false</IsMember>
+          <IsExcludedFromReset>false</IsExcludedFromReset>
+        </Field>
+        <Field Name="OneOffStandaloneCost">
+          <Description>The price of purchasing the add-on outright, as a standalone application</Description>
+          <DbType>Decimal</DbType>
+          <Precision>18</Precision>
+          <Scale>2</Scale>
+          <FillType>None</FillType>
+          <IsNullable>false</IsNullable>
+          <IsReadOnly>false</IsReadOnly>
+          <AllowOverwrite>True</AllowOverwrite>
+          <IsPrimaryKey>false</IsPrimaryKey>
+          <IsDeltaField>false</IsDeltaField>
+          <IsIndexed>false</IsIndexed>
+          <IsTransient>false</IsTransient>
+          <IsUnique>false</IsUnique>
+          <OverrideFormatting>false</OverrideFormatting>
+          <IsLockable>false</IsLockable>
+          <Direction>Input</Direction>
+          <ValueSetByDatabase>false</ValueSetByDatabase>
+          <FormatScale>2</FormatScale>
+          <FormatMask>999999999999999999.99</FormatMask>
+          <NegativeFormatting>Standard</NegativeFormatting>
+          <Group>false</Group>
+          <AggregateFunction>None</AggregateFunction>
+          <IsExcludedFromCopy>false</IsExcludedFromCopy>
+          <IsExpression>false</IsExpression>
+          <FriendlyName>One Off Standalone Cost</FriendlyName>
+          <IsBrowsable>true</IsBrowsable>
+          <IsQueryable>true</IsQueryable>
+          <IsEnumeration>false</IsEnumeration>
+          <IsAddInPrimaryKey>false</IsAddInPrimaryKey>
+          <AddInTableName />
+          <AddInRelationField />
+          <IsMember>false</IsMember>
+          <IsExcludedFromReset>false</IsExcludedFromReset>
+        </Field>
+        <Field Name="MonthlyStandaloneCost">
+          <Description>The price paid monthly for use of the add-on, as a standalone application</Description>
+          <DbType>Decimal</DbType>
+          <Precision>18</Precision>
+          <Scale>2</Scale>
+          <FillType>None</FillType>
+          <IsNullable>false</IsNullable>
+          <IsReadOnly>false</IsReadOnly>
+          <AllowOverwrite>True</AllowOverwrite>
+          <IsPrimaryKey>false</IsPrimaryKey>
+          <IsDeltaField>false</IsDeltaField>
+          <IsIndexed>false</IsIndexed>
+          <IsTransient>false</IsTransient>
+          <IsUnique>false</IsUnique>
+          <OverrideFormatting>false</OverrideFormatting>
+          <IsLockable>false</IsLockable>
+          <Direction>Input</Direction>
+          <ValueSetByDatabase>false</ValueSetByDatabase>
+          <FormatScale>2</FormatScale>
+          <FormatMask>999999999999999999.99</FormatMask>
+          <NegativeFormatting>Standard</NegativeFormatting>
+          <Group>false</Group>
+          <AggregateFunction>None</AggregateFunction>
+          <IsExcludedFromCopy>false</IsExcludedFromCopy>
+          <IsExpression>false</IsExpression>
+          <FriendlyName>Monthly Standalone Cost</FriendlyName>
+          <IsBrowsable>true</IsBrowsable>
+          <IsQueryable>true</IsQueryable>
+          <IsEnumeration>false</IsEnumeration>
+          <IsAddInPrimaryKey>false</IsAddInPrimaryKey>
+          <AddInTableName />
+          <AddInRelationField />
+          <IsMember>false</IsMember>
+          <IsExcludedFromReset>false</IsExcludedFromReset>
+        </Field>
+      </Fields>
+      <IsCacheable>false</IsCacheable>
+      <AllowZeroKeys>false</AllowZeroKeys>
+      <AlwaysAllowPaging>false</AlwaysAllowPaging>
+      <Namespace />
+      <PagingFields />
+      <TransactionMode>Default</TransactionMode>
+      <IsStoredProcedure>false</IsStoredProcedure>
+      <ProcedureReturnType />
+    </PersistentObject>
+    <PersistentObject Name="EurekaCustomerSageAccount">
+      <TableName>EurekaCustomerSageAccounts</TableName>
+      <Description />
+      <Fields>
+        <Field Name="CustomerAccountNumber">
+          <DbType>String</DbType>
+          <Precision>8</Precision>
+          <Scale>2</Scale>
+          <FillType>None</FillType>
+          <IsNullable>false</IsNullable>
+          <IsReadOnly>false</IsReadOnly>
+          <AllowOverwrite>True</AllowOverwrite>
+          <IsPrimaryKey>false</IsPrimaryKey>
+          <IsDeltaField>false</IsDeltaField>
+          <IsIndexed>false</IsIndexed>
+          <IsTransient>false</IsTransient>
+          <IsUnique>false</IsUnique>
+          <OverrideFormatting>false</OverrideFormatting>
+          <IsLockable>false</IsLockable>
+          <Direction>Input</Direction>
+          <ValueSetByDatabase>false</ValueSetByDatabase>
+          <FormatScale>2</FormatScale>
+          <NegativeFormatting>Standard</NegativeFormatting>
+          <Group>false</Group>
+          <AggregateFunction>None</AggregateFunction>
+          <IsExcludedFromCopy>false</IsExcludedFromCopy>
+          <IsExpression>false</IsExpression>
+          <FriendlyName>Customer Account Number</FriendlyName>
+          <IsBrowsable>true</IsBrowsable>
+          <IsQueryable>true</IsQueryable>
+          <IsEnumeration>false</IsEnumeration>
+          <IsAddInPrimaryKey>false</IsAddInPrimaryKey>
+          <AddInTableName />
+          <AddInRelationField />
+          <IsMember>false</IsMember>
+          <IsExcludedFromReset>false</IsExcludedFromReset>
+        </Field>
+        <Field Name="CustomerAccountName">
+          <DbType>String</DbType>
+          <Precision>60</Precision>
+          <Scale>2</Scale>
+          <FillType>None</FillType>
+          <IsNullable>false</IsNullable>
+          <IsReadOnly>false</IsReadOnly>
+          <AllowOverwrite>True</AllowOverwrite>
+          <IsPrimaryKey>false</IsPrimaryKey>
+          <IsDeltaField>false</IsDeltaField>
+          <IsIndexed>false</IsIndexed>
+          <IsTransient>false</IsTransient>
+          <IsUnique>false</IsUnique>
+          <OverrideFormatting>false</OverrideFormatting>
+          <IsLockable>false</IsLockable>
+          <Direction>Input</Direction>
+          <ValueSetByDatabase>false</ValueSetByDatabase>
+          <FormatScale>2</FormatScale>
+          <NegativeFormatting>Standard</NegativeFormatting>
+          <Group>false</Group>
+          <AggregateFunction>None</AggregateFunction>
+          <IsExcludedFromCopy>false</IsExcludedFromCopy>
+          <IsExpression>false</IsExpression>
+          <FriendlyName>Customer Account Name</FriendlyName>
+          <IsBrowsable>true</IsBrowsable>
+          <IsQueryable>true</IsQueryable>
+          <IsEnumeration>false</IsEnumeration>
+          <IsAddInPrimaryKey>false</IsAddInPrimaryKey>
+          <AddInTableName />
+          <AddInRelationField />
+          <IsMember>false</IsMember>
+          <IsExcludedFromReset>false</IsExcludedFromReset>
+        </Field>
+        <Field Name="SageAccountNumber">
+          <DbType>String</DbType>
+          <Precision>20</Precision>
+          <Scale>0</Scale>
+          <FillType>None</FillType>
+          <IsNullable>false</IsNullable>
+          <IsReadOnly>false</IsReadOnly>
+          <AllowOverwrite>True</AllowOverwrite>
+          <IsPrimaryKey>false</IsPrimaryKey>
+          <IsDeltaField>false</IsDeltaField>
+          <IsIndexed>false</IsIndexed>
+          <IsTransient>false</IsTransient>
+          <IsUnique>false</IsUnique>
+          <OverrideFormatting>false</OverrideFormatting>
+          <IsLockable>false</IsLockable>
+          <Direction>Input</Direction>
+          <ValueSetByDatabase>false</ValueSetByDatabase>
+          <FormatScale>0</FormatScale>
+          <NegativeFormatting>Standard</NegativeFormatting>
+          <Group>false</Group>
+          <AggregateFunction>None</AggregateFunction>
+          <IsExcludedFromCopy>false</IsExcludedFromCopy>
+          <IsExpression>false</IsExpression>
+          <FriendlyName>Sage Account Number</FriendlyName>
+          <IsBrowsable>true</IsBrowsable>
+          <IsQueryable>true</IsQueryable>
+          <IsEnumeration>false</IsEnumeration>
+          <IsAddInPrimaryKey>false</IsAddInPrimaryKey>
+          <AddInTableName />
+          <AddInRelationField />
+          <IsMember>false</IsMember>
+          <IsExcludedFromReset>false</IsExcludedFromReset>
+        </Field>
+        <Field Name="Sage200SerialNumber">
+          <DbType>String</DbType>
+          <Precision>20</Precision>
+          <Scale>2</Scale>
+          <FillType>None</FillType>
+          <IsNullable>false</IsNullable>
+          <IsReadOnly>false</IsReadOnly>
+          <AllowOverwrite>True</AllowOverwrite>
+          <IsPrimaryKey>false</IsPrimaryKey>
+          <IsDeltaField>false</IsDeltaField>
+          <IsIndexed>false</IsIndexed>
+          <IsTransient>false</IsTransient>
+          <IsUnique>false</IsUnique>
+          <OverrideFormatting>false</OverrideFormatting>
+          <IsLockable>false</IsLockable>
+          <Direction>Input</Direction>
+          <ValueSetByDatabase>false</ValueSetByDatabase>
+          <FormatScale>2</FormatScale>
+          <NegativeFormatting>Standard</NegativeFormatting>
+          <Group>false</Group>
+          <AggregateFunction>None</AggregateFunction>
+          <IsExcludedFromCopy>false</IsExcludedFromCopy>
+          <IsExpression>false</IsExpression>
+          <FriendlyName>Sage 200 Serial Number</FriendlyName>
+          <IsBrowsable>true</IsBrowsable>
+          <IsQueryable>true</IsQueryable>
+          <IsEnumeration>false</IsEnumeration>
+          <IsAddInPrimaryKey>false</IsAddInPrimaryKey>
+          <AddInTableName />
+          <AddInRelationField />
+          <IsMember>false</IsMember>
+          <IsExcludedFromReset>false</IsExcludedFromReset>
+        </Field>
+        <Field Name="SLCustomerAccountID">
+          <DbType>Int64</DbType>
+          <Precision>11</Precision>
+          <Scale>2</Scale>
+          <FillType>None</FillType>
+          <IsNullable>true</IsNullable>
+          <IsReadOnly>false</IsReadOnly>
+          <AllowOverwrite>Equal</AllowOverwrite>
+          <IsPrimaryKey>false</IsPrimaryKey>
+          <IsDeltaField>false</IsDeltaField>
+          <IsIndexed>false</IsIndexed>
+          <IsTransient>false</IsTransient>
+          <IsUnique>false</IsUnique>
+          <OverrideFormatting>false</OverrideFormatting>
+          <IsLockable>false</IsLockable>
+          <Direction>Input</Direction>
+          <ValueSetByDatabase>false</ValueSetByDatabase>
+          <FormatScale>2</FormatScale>
+          <FormatMask>99999999999</FormatMask>
+          <NegativeFormatting>Standard</NegativeFormatting>
+          <Group>false</Group>
+          <AggregateFunction>None</AggregateFunction>
+          <IsExcludedFromCopy>false</IsExcludedFromCopy>
+          <IsExpression>false</IsExpression>
+          <FriendlyName>SLCustomer Account ID</FriendlyName>
+          <IsBrowsable>true</IsBrowsable>
+          <IsQueryable>true</IsQueryable>
+          <IsEnumeration>false</IsEnumeration>
+          <IsAddInPrimaryKey>false</IsAddInPrimaryKey>
+          <AddInTableName />
+          <AddInRelationField />
+          <IsMember>false</IsMember>
+          <IsExcludedFromReset>false</IsExcludedFromReset>
+        </Field>
+      </Fields>
+      <IsCacheable>false</IsCacheable>
+      <AllowZeroKeys>false</AllowZeroKeys>
+      <AlwaysAllowPaging>false</AlwaysAllowPaging>
+      <Namespace />
+      <PagingFields />
+      <TransactionMode>Required</TransactionMode>
+      <IsStoredProcedure>false</IsStoredProcedure>
+      <ProcedureReturnType />
+    </PersistentObject>
+    <PersistentObject Name="EurekaSubscription">
+      <TableName />
+      <Description />
+      <Fields>
+        <Field Name="EurekaSubscriptionID">
+          <DbType>Int64</DbType>
+          <Precision>11</Precision>
+          <Scale>2</Scale>
+          <FillType>None</FillType>
+          <IsNullable>false</IsNullable>
+          <IsReadOnly>true</IsReadOnly>
+          <AllowOverwrite>Equal</AllowOverwrite>
+          <IsPrimaryKey>true</IsPrimaryKey>
+          <IsDeltaField>false</IsDeltaField>
+          <IsIndexed>true</IsIndexed>
+          <IsTransient>false</IsTransient>
+          <IsUnique>true</IsUnique>
+          <OverrideFormatting>false</OverrideFormatting>
+          <IsLockable>false</IsLockable>
+          <Direction>Input</Direction>
+          <ValueSetByDatabase>false</ValueSetByDatabase>
+          <FormatScale>2</FormatScale>
+          <FormatMask>99999999999</FormatMask>
+          <NegativeFormatting>Standard</NegativeFormatting>
+          <Group>false</Group>
+          <AggregateFunction>None</AggregateFunction>
+          <IsExcludedFromCopy>false</IsExcludedFromCopy>
+          <IsExpression>false</IsExpression>
+          <FriendlyName>Eureka Subscription ID</FriendlyName>
+          <IsBrowsable>true</IsBrowsable>
+          <IsQueryable>true</IsQueryable>
+          <IsEnumeration>false</IsEnumeration>
+          <IsAddInPrimaryKey>false</IsAddInPrimaryKey>
+          <AddInTableName />
+          <AddInRelationField />
+          <IsMember>false</IsMember>
+          <IsExcludedFromReset>false</IsExcludedFromReset>
+        </Field>
+        <Field Name="CustomerID">
+          <ColumnName>SLCustomerAccountID</ColumnName>
+          <Description>The ID of the customer account that owns the subscription</Description>
+          <DbType>Int64</DbType>
+          <Precision>11</Precision>
+          <Scale>2</Scale>
+          <FillType>None</FillType>
+          <IsNullable>true</IsNullable>
+          <IsReadOnly>false</IsReadOnly>
+          <AllowOverwrite>True</AllowOverwrite>
+          <IsPrimaryKey>false</IsPrimaryKey>
+          <IsDeltaField>false</IsDeltaField>
+          <IsIndexed>false</IsIndexed>
+          <IsTransient>false</IsTransient>
+          <IsUnique>false</IsUnique>
+          <OverrideFormatting>false</OverrideFormatting>
+          <IsLockable>false</IsLockable>
+          <Direction>Input</Direction>
+          <ValueSetByDatabase>false</ValueSetByDatabase>
+          <FormatScale>2</FormatScale>
+          <FormatMask>99999999999</FormatMask>
+          <NegativeFormatting>Standard</NegativeFormatting>
+          <Group>false</Group>
+          <AggregateFunction>None</AggregateFunction>
+          <IsExcludedFromCopy>false</IsExcludedFromCopy>
+          <IsExpression>false</IsExpression>
+          <FriendlyName>Customer Account ID</FriendlyName>
+          <IsBrowsable>true</IsBrowsable>
+          <IsQueryable>true</IsQueryable>
+          <IsEnumeration>false</IsEnumeration>
+          <IsAddInPrimaryKey>false</IsAddInPrimaryKey>
+          <AddInTableName />
+          <AddInRelationField />
+          <IsMember>false</IsMember>
+          <IsExcludedFromReset>false</IsExcludedFromReset>
+        </Field>
+        <Field Name="EurekaCommonAddonID">
+          <Description>The ID of the common addon that the customer is subscribed to</Description>
+          <DbType>Int64</DbType>
+          <Precision>11</Precision>
+          <Scale>2</Scale>
+          <FillType>None</FillType>
+          <IsNullable>true</IsNullable>
+          <IsReadOnly>false</IsReadOnly>
+          <AllowOverwrite>True</AllowOverwrite>
+          <IsPrimaryKey>false</IsPrimaryKey>
+          <IsDeltaField>false</IsDeltaField>
+          <IsIndexed>false</IsIndexed>
+          <IsTransient>false</IsTransient>
+          <IsUnique>false</IsUnique>
+          <OverrideFormatting>false</OverrideFormatting>
+          <IsLockable>false</IsLockable>
+          <Direction>Input</Direction>
+          <ValueSetByDatabase>false</ValueSetByDatabase>
+          <FormatScale>2</FormatScale>
+          <FormatMask>99999999999</FormatMask>
+          <NegativeFormatting>Standard</NegativeFormatting>
+          <Group>false</Group>
+          <AggregateFunction>None</AggregateFunction>
+          <IsExcludedFromCopy>false</IsExcludedFromCopy>
+          <IsExpression>false</IsExpression>
+          <FriendlyName>Common Addon ID</FriendlyName>
+          <IsBrowsable>true</IsBrowsable>
+          <IsQueryable>true</IsQueryable>
+          <IsEnumeration>false</IsEnumeration>
+          <IsAddInPrimaryKey>false</IsAddInPrimaryKey>
+          <AddInTableName />
+          <AddInRelationField />
+          <IsMember>false</IsMember>
+          <IsExcludedFromReset>false</IsExcludedFromReset>
+        </Field>
+        <Field Name="ExpiryDate">
+          <Description>The date on which the customer's subscription expires</Description>
+          <DbType>Date</DbType>
+          <Precision>11</Precision>
+          <Scale>2</Scale>
+          <FillType>None</FillType>
+          <IsNullable>false</IsNullable>
+          <IsReadOnly>false</IsReadOnly>
+          <AllowOverwrite>True</AllowOverwrite>
+          <IsPrimaryKey>false</IsPrimaryKey>
+          <IsDeltaField>false</IsDeltaField>
+          <IsIndexed>false</IsIndexed>
+          <IsTransient>false</IsTransient>
+          <IsUnique>false</IsUnique>
+          <OverrideFormatting>false</OverrideFormatting>
+          <IsLockable>false</IsLockable>
+          <Direction>Input</Direction>
+          <ValueSetByDatabase>false</ValueSetByDatabase>
+          <FormatScale>2</FormatScale>
+          <FormatMask>99/99/9999</FormatMask>
+          <NegativeFormatting>Standard</NegativeFormatting>
+          <Group>false</Group>
+          <AggregateFunction>None</AggregateFunction>
+          <IsExcludedFromCopy>false</IsExcludedFromCopy>
+          <IsExpression>false</IsExpression>
+          <FriendlyName>Expiry Date</FriendlyName>
+          <IsBrowsable>true</IsBrowsable>
+          <IsQueryable>true</IsQueryable>
+          <IsEnumeration>false</IsEnumeration>
+          <IsAddInPrimaryKey>false</IsAddInPrimaryKey>
+          <AddInTableName />
+          <AddInRelationField />
+          <IsMember>false</IsMember>
+          <IsExcludedFromReset>false</IsExcludedFromReset>
+        </Field>
+        <Field Name="CostPerBillingCycle">
+          <DbType>Decimal</DbType>
+          <Precision>18</Precision>
+          <Scale>2</Scale>
+          <FillType>None</FillType>
+          <IsNullable>false</IsNullable>
+          <IsReadOnly>false</IsReadOnly>
+          <AllowOverwrite>True</AllowOverwrite>
+          <IsPrimaryKey>false</IsPrimaryKey>
+          <IsDeltaField>false</IsDeltaField>
+          <IsIndexed>false</IsIndexed>
+          <IsTransient>false</IsTransient>
+          <IsUnique>false</IsUnique>
+          <OverrideFormatting>false</OverrideFormatting>
+          <IsLockable>false</IsLockable>
+          <Direction>Input</Direction>
+          <ValueSetByDatabase>false</ValueSetByDatabase>
+          <FormatScale>2</FormatScale>
+          <FormatMask>999999999999999999.99</FormatMask>
+          <NegativeFormatting>Standard</NegativeFormatting>
+          <Group>false</Group>
+          <AggregateFunction>None</AggregateFunction>
+          <IsExcludedFromCopy>false</IsExcludedFromCopy>
+          <IsExpression>false</IsExpression>
+          <FriendlyName>Cost per Billing Cycle</FriendlyName>
+          <IsBrowsable>true</IsBrowsable>
+          <IsQueryable>true</IsQueryable>
+          <IsEnumeration>false</IsEnumeration>
+          <IsAddInPrimaryKey>false</IsAddInPrimaryKey>
+          <AddInTableName />
+          <AddInRelationField />
+          <IsMember>false</IsMember>
+          <IsExcludedFromReset>false</IsExcludedFromReset>
+        </Field>
+        <Field Name="EurekaBillingFrequencyID">
+          <DbType>Int64</DbType>
+          <Precision>11</Precision>
+          <Scale>2</Scale>
+          <FillType>None</FillType>
+          <IsNullable>false</IsNullable>
+          <IsReadOnly>false</IsReadOnly>
+          <AllowOverwrite>True</AllowOverwrite>
+          <IsPrimaryKey>false</IsPrimaryKey>
+          <IsDeltaField>false</IsDeltaField>
+          <IsIndexed>false</IsIndexed>
+          <IsTransient>false</IsTransient>
+          <IsUnique>false</IsUnique>
+          <OverrideFormatting>false</OverrideFormatting>
+          <IsLockable>false</IsLockable>
+          <Direction>Input</Direction>
+          <ValueSetByDatabase>false</ValueSetByDatabase>
+          <FormatScale>2</FormatScale>
+          <FormatMask>99999999999</FormatMask>
+          <NegativeFormatting>Standard</NegativeFormatting>
+          <Group>false</Group>
+          <AggregateFunction>None</AggregateFunction>
+          <IsExcludedFromCopy>false</IsExcludedFromCopy>
+          <IsExpression>false</IsExpression>
+          <FriendlyName>Eureka Billing Frequency ID</FriendlyName>
+          <IsBrowsable>true</IsBrowsable>
+          <IsQueryable>true</IsQueryable>
+          <IsEnumeration>false</IsEnumeration>
+          <IsAddInPrimaryKey>false</IsAddInPrimaryKey>
+          <AddInTableName />
+          <AddInRelationField />
+          <IsMember>false</IsMember>
+          <IsExcludedFromReset>false</IsExcludedFromReset>
+        </Field>
+        <Field Name="LicenseKey">
+          <DbType>String</DbType>
+          <Precision>2147483647</Precision>
+          <Scale>0</Scale>
+          <FillType>None</FillType>
+          <IsNullable>false</IsNullable>
+          <IsReadOnly>false</IsReadOnly>
+          <AllowOverwrite>True</AllowOverwrite>
+          <IsPrimaryKey>false</IsPrimaryKey>
+          <IsDeltaField>false</IsDeltaField>
+          <IsIndexed>false</IsIndexed>
+          <IsTransient>false</IsTransient>
+          <IsUnique>false</IsUnique>
+          <OverrideFormatting>false</OverrideFormatting>
+          <IsLockable>false</IsLockable>
+          <Direction>Input</Direction>
+          <ValueSetByDatabase>false</ValueSetByDatabase>
+          <FormatScale>0</FormatScale>
+          <NegativeFormatting>Standard</NegativeFormatting>
+          <Group>false</Group>
+          <AggregateFunction>None</AggregateFunction>
+          <IsExcludedFromCopy>false</IsExcludedFromCopy>
+          <IsExpression>false</IsExpression>
+          <FriendlyName>License Key</FriendlyName>
+          <IsBrowsable>true</IsBrowsable>
+          <IsQueryable>true</IsQueryable>
+          <IsEnumeration>false</IsEnumeration>
+          <IsAddInPrimaryKey>false</IsAddInPrimaryKey>
+          <AddInTableName />
+          <AddInRelationField />
+          <IsMember>false</IsMember>
+          <IsExcludedFromReset>false</IsExcludedFromReset>
+        </Field>
+      </Fields>
+      <IsCacheable>false</IsCacheable>
+      <AllowZeroKeys>false</AllowZeroKeys>
+      <AlwaysAllowPaging>false</AlwaysAllowPaging>
+      <Namespace />
+      <PagingFields />
+      <TransactionMode>Default</TransactionMode>
+      <IsStoredProcedure>false</IsStoredProcedure>
+      <ProcedureReturnType />
+    </PersistentObject>
+  </PersistentObjects>
+  <Relationships>
+    <Relationship>
+      <ParentObject>Customer</ParentObject>
+      <ParentKey>SLCustomerAccountID</ParentKey>
+      <ChildObject>EurekaSubscription</ChildObject>
+      <ChildKey>CustomerID</ChildKey>
+      <InsertOperation>CheckParentExists</InsertOperation>
+      <DeleteOperation>CheckForAnyChildren</DeleteOperation>
+      <IsOneToMany>true</IsOneToMany>
+    </Relationship>
+    <Relationship>
+      <ParentObject>EurekaBillingFrequency</ParentObject>
+      <ParentKey>EurekaBillingFrequencyID</ParentKey>
+      <ChildObject>EurekaSubscription</ChildObject>
+      <ChildKey>EurekaBillingFrequencyID</ChildKey>
+      <InsertOperation>CheckParentExists</InsertOperation>
+      <DeleteOperation>CheckForAnyChildren</DeleteOperation>
+      <IsOneToMany>true</IsOneToMany>
+    </Relationship>
+    <Relationship>
+      <ParentObject>EurekaCommonAddon</ParentObject>
+      <ParentKey>EurekaCommonAddonID</ParentKey>
+      <ChildObject>EurekaSubscription</ChildObject>
+      <ChildKey>EurekaCommonAddonID</ChildKey>
+      <InsertOperation>CheckParentExists</InsertOperation>
+      <DeleteOperation>CheckForAnyChildren</DeleteOperation>
+      <IsOneToMany>true</IsOneToMany>
+    </Relationship>
+  </Relationships>
+  <DataTypes />
+  <Enumerations />
+  <BaselineSchema />
+  <KeepIDSuffixTables />
+</ObjectStore>
